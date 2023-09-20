@@ -1,0 +1,244 @@
+body {
+    background-color:black ;
+    display: flex;
+    justify-content: center;
+    font-family: 'Bad Script', 'Serif';
+    color: aliceblue;
+    width: 3000px;
+    height: 4000px;
+}
+
+div, img {
+    border-radius: 7px;
+}
+
+.all {
+    background-color: #383F51;
+    width: 2160px;
+    height: 2880px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('../images/main-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-upper, .main-lower {
+    width: 2095.2px;
+}
+
+.main-upper {
+    height: 1728px;
+}
+
+.main-lower {
+    height: 1065.6px;
+}
+
+.main-upper, .main-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.upper-container {
+    width: 607.6px;
+    height: 1728px;
+
+}
+
+#ee {
+    width: 838.067px;
+    background-image: url('../images/ee.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.main-upper div:first-child, .main-upper div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.staff {
+    height: 848.433px;
+    width: 607.6px;
+}
+
+.lower-left, .lower-right {
+    height: 1065.6px;
+    width: 1035.43px;
+}
+
+.lower-left, .lower-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.special {
+    width: 1035.43px;
+    height: 335.65px;
+    background-image: url('../images/special.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.important {
+    width: 1035.43px;
+    height: 518.933px;
+    background-image: url('../images/important.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#wind {
+    background-image: url('../images/staff-wind.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#light {
+    background-image: url('../images/staff-light.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#fire {
+    background-image: url('../images/staff-fire.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ice {
+    background-image: url('../images/staff-ice.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.large {
+    font-size: 20px;
+}
+
+.medium {
+    font-size: 19.14px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+h1, p {
+    text-align: center;
+    margin: 0;
+}
+
+ol {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+#title-wind {
+    color: #FFBA08;
+    text-shadow: black 2px 2px;
+}
+
+#title-light {
+    color: #9D4EDD;
+    text-shadow: black 2px 2px;
+}
+
+#title-fire {
+    color: #D00000;
+}
+
+#title-ice {
+    color: #11B5E4;
+}
+
+#title-maxis {
+    color: #2DC653;
+    text-shadow: black 2px 2px;
+}
+
+#title-runes {
+    color:#FFBA08;
+    text-shadow: chocolate 2px 2px;
+}
+
+#title-fists {
+    color: aliceblue;
+    text-shadow: darkgray 2px 2px;
+}
+
+#title-gstrikes {
+    color: #69dfff;
+    text-shadow: black 2px 2px;
+}
+
+strong {
+    color: #ffcf57;
+}
+
+.content {
+    padding: 25px;
+}
+
+.maxis {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.maxis-img {
+    display: flex;
+    justify-content: center;
+}
+
+/*Llegado a este punto me cansé*/
+
+.daleMierda {
+    height: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.poronga {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px;
+}
+
+.margin-bottom {
+    margin: 0 0 15px 0 ;
+}
+
+.zzz {
+    height: 320px;
+}
+
+.between2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
