@@ -6,6 +6,7 @@ body {
     color: aliceblue;
     width: 2160px;
     height: 2880px;
+    margin: 0;
 }
 
 div, img {
