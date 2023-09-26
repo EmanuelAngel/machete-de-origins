@@ -1,5 +1,5 @@
 body {
-    background-color:black ;
+    background-color: #383F51;
     display: flex;
     justify-content: center;
     font-family: 'Bad Script', 'Serif';
@@ -242,4 +242,24 @@ strong {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.daleMierda2 {
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.padding-top {
+    padding-top: 20px;
+}
+
+.ñ {
+    height: 36px;
 }
